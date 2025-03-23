@@ -1,5 +1,4 @@
 # Testes Automatizados com Cypress - Metrix
-# Testes Automatizados com Cypress - Metrix
 
 Este repositório contém testes end-to-end realizados com Cypress para o sistema **Metrix**.
 
