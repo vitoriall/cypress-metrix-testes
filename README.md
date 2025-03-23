@@ -25,27 +25,32 @@ cypress/
 ├── screenshots/             # Prints automáticos de falhas
 ├── support/
 │   └── e2e.js
-│
 ├── fixtures/                # (se necessário para dados mockados)
 ├── cypress.config.js
 ├── package.json
 └── README.md
 
+
 🚀 Como rodar os testes localmente
 1. Clone o repositório:
+
 git clone https://github.com/vitoriall/cypress-metrix-testes.git
 cd cypress-metrix-testes
 
 2. Instale as dependências:
+
 npm install
 
 3. Execute os testes com interface gráfica:
+
 npx cypress open
 
 4. Ou execute no terminal (modo headless):
+
 npx cypress run
 
 🖼️ Prints automáticos
+
 O Cypress gera automaticamente prints das telas quando algum teste falha, e os salva na pasta:
 cypress/screenshots/
 
