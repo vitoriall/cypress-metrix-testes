@@ -34,22 +34,24 @@ cypress/
 
 ## 🚀 Como rodar os testes localmente
 1. Clone o repositório:
-
+```
 git clone https://github.com/vitoriall/cypress-metrix-testes.git
+
 cd cypress-metrix-testes
+```
 
 2. Instale as dependências:
-
+```
 npm install
-
+```
 3. Execute os testes com interface gráfica:
-
+```
 npx cypress open
-
+```
 4. Ou execute no terminal (modo headless):
-
+```
 npx cypress run
-
+```
 ## 🖼️ Prints automáticos
 
 O Cypress gera automaticamente prints das telas quando algum teste falha, e os salva na pasta:
@@ -59,13 +61,14 @@ Esses arquivos ajudam a entender o que deu errado em cada teste. Você também p
 cy.screenshot('nome-do-print')
 
 ## 📌 Próximos testes a desenvolver
-Testes de formulário (validações e submissões)
+✅ Testes de formulário (validações e submissões)
 
-Testes de redirecionamento e falha de carregamento
+✅ Testes de redirecionamento e falha de carregamento
 
-Testes para módulos específicos dentro de Obra
+✅ Testes para módulos específicos dentro de Obra
 
-Teste completo de login com diferentes perfis de usuário
+✅ Teste completo de login com diferentes perfis de usuário
+
 
 ---
 
