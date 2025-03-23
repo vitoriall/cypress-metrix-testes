@@ -32,7 +32,7 @@ cypress/
 
 ```
 
-🚀 Como rodar os testes localmente
+## 🚀 Como rodar os testes localmente
 1. Clone o repositório:
 
 git clone https://github.com/vitoriall/cypress-metrix-testes.git
@@ -50,7 +50,7 @@ npx cypress open
 
 npx cypress run
 
-🖼️ Prints automáticos
+## 🖼️ Prints automáticos
 
 O Cypress gera automaticamente prints das telas quando algum teste falha, e os salva na pasta:
 cypress/screenshots/
@@ -58,7 +58,7 @@ cypress/screenshots/
 Esses arquivos ajudam a entender o que deu errado em cada teste. Você também pode gerar prints manuais com:
 cy.screenshot('nome-do-print')
 
-📌 Próximos testes a desenvolver
+## 📌 Próximos testes a desenvolver
 Testes de formulário (validações e submissões)
 
 Testes de redirecionamento e falha de carregamento
