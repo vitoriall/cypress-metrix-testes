@@ -30,7 +30,7 @@ cypress/
 ├── package.json
 └── README.md
 
-'''
+```
 
 🚀 Como rodar os testes localmente
 1. Clone o repositório:
