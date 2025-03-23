@@ -1,0 +1,23 @@
+node_modules/
+# Dependências
+node_modules/
+
+# Cache do Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Configuração local do Cypress
+cypress.config.local.js
+
+# Logs e erros locais
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
